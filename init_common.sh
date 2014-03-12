@@ -1,6 +1,7 @@
 #!/bin/bash
 sudo apt-get -y install build-essential
 sudo apt-get -y install ctags cscope
+sudo apt-get -y install gcc-multilib
 
 # install vim
 sudo apt-get -y install vim bc
