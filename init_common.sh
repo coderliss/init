@@ -2,6 +2,7 @@
 sudo apt-get -y install build-essential
 sudo apt-get -y install ctags cscope
 sudo apt-get -y install gcc-multilib
+sudo apt-get -y install ipython
 
 # install vim
 sudo apt-get -y install vim bc
