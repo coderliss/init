@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# tools
+sudo apt-get -y install pax-utils # for scanelf command
+
 #mainline
 git clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git $HOME/linux
 cd $HOME/linux; make defconfig; make tags; cd -
