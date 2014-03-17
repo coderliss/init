@@ -10,7 +10,7 @@ echo "3. linux-next"
 echo -n "which is your choice:"
 read CHOICE
 
-if [ $CHOICE -ne 1 ] && [ $CHOICE -ne 1 ] && [ $CHOICE -ne 1 ]; then
+if [ $CHOICE -ne 1 ] && [ $CHOICE -ne 2 ] && [ $CHOICE -ne 3 ]; then
 	echo "invaild choice, do noting, please start up manually"
 fi
 
@@ -32,8 +32,6 @@ if [ $CHOICE -eq 3 ]; then
 	cd $HOME/linux-next; make defconfig; make tags; cd -
 	sed -i '$aset tags+=$HOME/linux-next/tags' $HOME/.vimrc
 fi
-
-
 
 echo -n "install other source[y/n]:"
 read YES_OR_NO
