@@ -1,4 +1,9 @@
 #!/bin/bash
+
+# configuration bash
+cp .bashrc $HOME
+
+# install package
 sudo apt-get -y install build-essential
 sudo apt-get -y install ctags cscope
 sudo apt-get -y install gcc-multilib
