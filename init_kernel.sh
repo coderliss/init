@@ -29,6 +29,10 @@ fi
 if [ $CHOICE -eq 3 ]; then
 	#next 
 	git clone git://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git $HOME/linux-next
+	git remote add linux-next git://git.kernel.org/pub/scm/linux/kernel/git/next/linux-next.git
+	git fetch linux-next
+	git fetch --tags linux-next
+	git remote update
 	cd $HOME/linux-next; make defconfig; make tags; cd -
 	sed -i '$aset tags+=$HOME/linux-next/tags' $HOME/.vimrc
 fi
