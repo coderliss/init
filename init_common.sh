@@ -17,7 +17,7 @@ git clone https://github.com/coderliss/vim-config.git
 cd vim-config; ./install.sh ; cd -
 
 # setup git
-git config --global user.name "liss"
+git config --global user.name "Jimmy Li"
 git config --global user.email coder.liss@gmail.com
 git config --global core.editor vim
 git config --global merge.tool vimdiff
