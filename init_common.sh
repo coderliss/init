@@ -9,6 +9,7 @@ sudo apt-get -y install ctags cscope
 sudo apt-get -y install gcc-multilib
 sudo apt-get -y install ipython
 sudo apt-get -y install git
+sudo apt-get -y install ncurses-dev
 
 # install vim
 sudo apt-get -y install vim bc
