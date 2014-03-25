@@ -2,6 +2,7 @@
 
 # tools
 sudo apt-get -y install pax-utils # for scanelf command
+sudo apt-get -y install sparse
 
 echo "which version to work in:"
 echo "1. trvalds mainline"
