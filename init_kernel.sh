@@ -4,7 +4,7 @@
 sudo apt-get -y install pax-utils # for scanelf command
 
 echo "which version to work in:"
-echo "1. trvalds mainline"
+echo "1. torvalds mainline"
 echo "2. linux-stable"
 echo "3. linux-next"
 echo -n "which is your choice:"
