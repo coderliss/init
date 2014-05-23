@@ -23,6 +23,7 @@ git config --global user.name "Jimmy Li"
 git config --global user.email coder.liss@gmail.com
 git config --global core.editor vim
 git config --global merge.tool vimdiff
+git config --global push.default simple
 
 echo "config ok"
 git config --list
